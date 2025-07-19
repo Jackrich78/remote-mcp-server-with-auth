@@ -1,12 +1,12 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(mkdir:*)",
-      "Bash(mv:*)",
-      "Bash(npm run type-check:*)",
-      "Bash(npx tsc:*)",
-      "Bash(npm test)"
-    ],
-    "deny": []
+  "mcpServers": {
+    "database-mcp-prod": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://my-mcp-server.hello-abe.workers.dev/mcp"
+      ],
+      "env": {}
+    }
   }
 }
